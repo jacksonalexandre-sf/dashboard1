@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="logo-apple"></ion-icon>
+                        </span>
+                        <span class="title">Brand Name</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="home"></ion-icon>
+                        </span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="contacts"></ion-icon>
+                        </span>
+                        <span class="title">Customers</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="chatboxes"></ion-icon>
+                        </span>
+                        <span class="title">Messages</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="help"></ion-icon>
+                        </span>
+                        <span class="title">Help</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="settings"></ion-icon>
+                        </span>
+                        <span class="title">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="lock"></ion-icon>
+                        </span>
+                        <span class="title">Password</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="log-out"></ion-icon>
+                        </span>
+                        <span class="title">Sign Out</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main">
+        <div class="topbar">
+            <div class="menu">
+                <ion-icon name="menu"></ion-icon>
+            </div>
+            <div class="search">
+                <label>
+                    <input type="text" placeholder="search">
+                    <ion-icon name="search"></ion-icon>
+                </label>
+            </div>
+            <div class="user">
+                <img src="assets/images/minha-foto.jpeg" alt="">
+            </div>
+        </div>
+
+        <div class="cardBox">
+            <div class="card">
+                <div>
+                    <div class="numbers">1.500</div>
+                    <div class="cardName">Daily Views</div>
+                </div>
+                <div class="iconBox">
+                    <ion-icon name="eye"></ion-icon>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="numbers">80</div>
+                    <div class="cardName">Sales</div>
+                </div>
+                <div class="iconBox">
+                    <ion-icon name="cart"></ion-icon>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="numbers">280</div>
+                    <div class="cardName">Comments</div>
+                </div>
+                <div class="iconBox">
+                    <ion-icon name="chatbubbles"></ion-icon>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="numbers">$ 7.000</div>
+                    <div class="cardName">Earning</div>
+                </div>
+                <div class="iconBox">
+                    <ion-icon name="cash"></ion-icon>
+                </div>
+            </div>
+        </div>
+
+        <!-- ================Order details list=================  -->
+        <div class="details">
+            <div class="recentOrders">
+                <div class="cardHeader">
+                    <h2>Recent Orders</h2>
+                    <a href="" class="btn">View All</a>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Price</td>
+                            <td>Payment</td>
+                            <td>Status</td>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Star Refrigerator</td>
+                            <td>$ 1.200</td>
+                            <td>Paid</td>
+                            <td><span class="status delivered">Delivered</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Dell Laptop</td>
+                            <td>$ 500</td>
+                            <td>Due</td>
+                            <td><span class="status pending">Pending</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Apple Watch</td>
+                            <td>$ 900</td>
+                            <td>Due</td>
+                            <td><span class="status inProgress">In Progress</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Adidas Shoes</td>
+                            <td>$ 300</td>
+                            <td>Paid</td>
+                            <td><span class="status return">Return</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Star Refrigerator</td>
+                            <td>$ 1.200</td>
+                            <td>Paid</td>
+                            <td><span class="status delivered">Delivered</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Dell Laptop</td>
+                            <td>$ 500</td>
+                            <td>Due</td>
+                            <td><span class="status pending">Pending</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Apple Watch</td>
+                            <td>$ 900</td>
+                            <td>Due</td>
+                            <td><span class="status inProgress">In Progress</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Adidas Shoes</td>
+                            <td>$ 300</td>
+                            <td>Paid</td>
+                            <td><span class="status return">Return</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- ================New Costumers=================  -->
+            <div class="recentCostumers">
+                <div class="cardHeader">
+                    <h2>Recent Costumers</h2>
+                </div>
+
+                <table>
+                    <tr>
+                        <td width="60px">
+                            <div class="imgBox"><img src="assets/images/minha-foto.jpeg" alt=""></div>
+                        </td>
+                        <td>
+                            <h4>Jackson <br> <span>Brazil</span></h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="60px">
+                            <div class="imgBox"><img src="assets/images/minha-foto.jpeg" alt=""></div>
+                        </td>
+                        <td>
+                            <h4>Jackson <br> <span>Brazil</span></h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="60px">
+                            <div class="imgBox"><img src="assets/images/minha-foto.jpeg" alt=""></div>
+                        </td>
+                        <td>
+                            <h4>Jackson <br> <span>Brazil</span></h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="60px">
+                            <div class="imgBox"><img src="assets/images/minha-foto.jpeg" alt=""></div>
+                        </td>
+                        <td>
+                            <h4>Jackson <br> <span>Brazil</span></h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="60px">
+                            <div class="imgBox"><img src="assets/images/minha-foto.jpeg" alt=""></div>
+                        </td>
+                        <td>
+                            <h4>Jackson <br> <span>Brazil</span></h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="60px">
+                            <div class="imgBox"><img src="assets/images/minha-foto.jpeg" alt=""></div>
+                        </td>
+                        <td>
+                            <h4>Jackson <br> <span>Brazil</span></h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="60px">
+                            <div class="imgBox"><img src="assets/images/minha-foto.jpeg" alt=""></div>
+                        </td>
+                        <td>
+                            <h4>Jackson <br> <span>Brazil</span></h4>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
